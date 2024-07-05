@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Link and Buttons</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(223,245,201);
+            padding: 34px;
+            margin: 50px auto;
+            width: 600px;
+        }
+        .btn{
+            background-color: blue;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+        a{
+            text-decoration:none;
+            color: black;
+        }
+        a:hover{
+            color: red;
+            background-color: rgb(199, 141, 151);
+        }
+        a:visited{
+            color: rgb(27, 27, 3);
+        }
+        a:active{
+            background-color: greenyellow;
+        }
+
+        .btn:hover{
+            color:rgb(70, 70, 23);
+            background-color: white;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus mollitia excepturi atque dicta fugiat perferendis sed ex, nihil facere expedita autem ullam eaque eos vitae velit molestiae sunt placeat esse tempore dolorum repellat impedit pariatur dolore accusamus. A aspernatur incidunt ducimus! Repudiandae tempora ad repellat cupiditate doloribus nemo deleniti, aut non nostrum optio rem libero minima consequuntur earum inventore nisi.</p>
+        <a href="https://google.com" class="btn">Read More</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic Of HTML</title>
+</head>
+
+<body background="istockphoto-2123121789-2048x2048.jpg">
+    <h1>Welcome To NG Travel</h1>
+    <form action="Formdata.html">
+        <label for="name">Name: </label>
+        <div>
+            <input type="text" name="myName" id="name" placeholder="Enter First Name">
+            <input type="text" name="myName" placeholder="Enter Middle Name">
+            <input type="text" name="myName" placeholder="Enter Last Name">
+        </div>
+        <br>
+        <label for="id">ID:</label>
+        <div>
+            <input type="number" name="myId" id="id" iplaceholder="Gove Id" required>
+            &nbsp;&nbsp;Email: <input type="email" name="Email" placeholder="Enter Email" required>
+        </div>
+        <br>
+        <div>
+            Gender:
+            <ul>
+                <li>Male <input type="radio" name="myGender"></li>
+                <li>Female <input type="radio" name="myGender"></li>
+                <li>Other <input type="radio" name="myGender"></li>
+            </ul>
+            Age: <input type="number" name="age" min="0" max="100">
+        </div>
+        <br>
+        <div>
+            Contact No:<input type="number" Contact="myContact" placeholder="10 digit contact" required>
+            <input type="number" Contact="myContact" placeholder="10 digit contact" required>
+
+        </div>
+        <br>
+        <div>
+            City: &nbsp;&nbsp;<select name="City">
+                <option value="Nagpur">Nagpur</option>
+                <option value="pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Akola">Akola</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Amravati">Amravati</option>
+            </select>
+            &nbsp;&nbsp;State: &nbsp;&nbsp;<select name="State">
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="kerala">kerala</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+            Address: <textarea name="Address"></textarea>
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="DOB">
+        </div>
+        <br>
+        <div>
+            From:<input type="text" name="myName" placeholder="Enter location">
+            To:<input type="text" name="myName" placeholder="Enter location">
+        </div>
+        <br>
+        <input type="Submit" value="Save">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
